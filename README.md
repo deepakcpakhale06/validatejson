@@ -1,2 +1,4 @@
 # validatejson
-This is simple tool to validate JSON payload against the JSON schema
+
+Accepts JSON payload and JSON schema as input and runs JSON payload validation against the provided JSON schema.
+

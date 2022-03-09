@@ -1,7 +1,14 @@
 import setuptools
 
+
+with open('README.md') as f:
+    readme = f.read()
+
 setuptools.setup(
     name="validatejson",
+    description="Simplistic tool to validate JSON payload against JSON schema",
+    long_description=readme,
+    long_description_content_type="text/markdown",
     version="0.1",
     author="deeppy",
     description="Validate JSON payload against the JSON schema",
