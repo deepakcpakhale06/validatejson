@@ -9,10 +9,10 @@ setuptools.setup(
     description="Simplistic tool to validate JSON payload against JSON schema",
     long_description=readme,
     long_description_content_type="text/markdown",
-    version="0.1",
+    version="0.2",
     author="deeppy",
     url="https://github.com/deepakcpakhale06/validatejson",
-    download_url="https://github.com/deepakcpakhale06/validatejson/tree/main/dist/validatejson-0.1.tar",
+    download_url="https://github.com/deepakcpakhale06/validatejson/tree/main/dist/validatejson-0.2.tar",
     packages=["validatejson"],
     install_requires=['jsonschema','typer'],
     entry_points={
