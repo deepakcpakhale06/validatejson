@@ -11,7 +11,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     version="0.1",
     author="deeppy",
-    description="Validate JSON payload against the JSON schema",
     url="https://github.com/deepakcpakhale06/validatejson",
     download_url="https://github.com/deepakcpakhale06/validatejson/tree/main/dist/validatejson-0.1.tar",
     packages=["validatejson"],
